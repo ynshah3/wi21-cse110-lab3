@@ -9,11 +9,11 @@ div.header {
 }
 
 #top {
-    font-size: 50px;
+    font-size: 1.2cm;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Lobster";
+    font-family: "Lobster", sans-serif;
 }
 
 .topnav {
@@ -45,4 +45,23 @@ h1, h2, h3, h4, h5, h6 {
     content: "";
     display: table;
     clear: both;
+}
+
+body {
+    font-family: "Times New Roman", sans-serif;
+    background-color: tan;
+}
+
+/* Sections are cards that style blocks of related text */
+section {
+    background-image: url("./docs/background-img.jpg");
+    padding: 20px;
+    margin-top: 0.21in;
+}
+
+@media screen and (max-width: 400px) {
+    .topnav a{
+        float: none;
+        width: 100%;
+    }
 }
