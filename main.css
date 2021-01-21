@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+div.header {
+    padding: 30px;
+    text-align: center;
+    background-color: hsl(195, 53%, 79%);
+}
+
+#top {
+    font-size: 50px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Lobster";
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: tomato;
+}
+
+.topnav a[target="head"] {
+    float: left;
+    display: block;
+    color: #FFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: 1px solid #FFFFFF;
+}
+
+.topnav a:hover {
+    background-color: hsla(350, 100%, 88%, 100%);
+    color: rgb(0,0,0);
+}
+
+.topnav a:active{
+    background-color: rgba(255, 105, 180, 0.9);
+    color: black;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
