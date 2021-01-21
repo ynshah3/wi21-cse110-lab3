@@ -74,14 +74,57 @@ footer {
     margin-top: 0.21in;
 }
 
-footer a {
+footer + a {
     color: darkblue;
 }
 
-footer a:hover {
+footer + a:hover {
+    color: rgb(75, 8, 151);
+}
+
+footer + a:active{
+    color: white;
+}
+
+div > table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+div th, div td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid black;
+}
+
+section ~ tr:hover {
+    background-color: #ddd;
+}
+
+div th {
+    background-color: black;
+}
+
+#book th {
+    background-color: orange;
     color: black;
 }
 
-footer a:active{
-    color: white;
+#book th, #book td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid black;
+}
+
+#book {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#book tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#book tr:nth-child(odd) {
+    background-color: white;
 }
