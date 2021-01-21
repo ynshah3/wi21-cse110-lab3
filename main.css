@@ -153,6 +153,7 @@ footer ~ a:active{
     display: flex;
     height: 600px;
     flex-wrap: wrap;
-    align-content: space-between;
-    flex-direction: column;
+    align-content: space-between
+    margin: 30px;
+    padding: 5px;
 }
