@@ -62,8 +62,15 @@ body {
 /* Sections are cards that style blocks of related text */
 section {
     background-image: url("./docs/background-img.jpg");
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-top: 0.21in;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+    width: 100%;
 }
 
 @media screen and (max-width: 400px) {
@@ -75,9 +82,9 @@ section {
 
 footer {
     text-align: center;
-    padding: 20px;
+    padding: 20px 20px 20px 20px;
     background-color: lightgreen;
-    margin-top: 0.21in;
+    margin: 0.21in 0in 0in 0in;
 }
 
 footer + a {
@@ -95,6 +102,7 @@ footer ~ a:active{
 .grid-container {
     display: grid;
     grid-gap: 50px;
+    margin: auto;
 }
 
 .item1 {
